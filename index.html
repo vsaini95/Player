@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></head>
+  </head>
+  <body>
+    
+    <div class="video-section">
+        <h1 class="heading">How CapX will help you</h1>
+        <div class="video-container">
+            <video src="./video.mp4" class="video-thumbnail" onclick="playVideo(this)"></video><video src="./video.mp4" class="video-thumbnail" onclick="playVideo(this)"></video><video src="./video.mp4" class="video-thumbnail" onclick="playVideo(this)"></video><video src="./video.mp4" class="video-thumbnail" onclick="playVideo(this)"></video><video src="./video.mp4" class="video-thumbnail" onclick="playVideo(this)"></video>
+        </div>
+    </div>
+    <div class="video-popup" id="videoPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closeVideo()">&times;</span>
+            <video id="popupVideo" controls autoplay></video>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
